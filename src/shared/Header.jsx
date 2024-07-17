@@ -12,10 +12,7 @@ const Header = () => {
           to={"/"}
           className=" self-center whitespace-nowrap  text-sm sm:text-xl font-semibold dark:text-white"
         >
-          <span className=" px-2 py-1 rounded text-white bg-gradient-to-r from-cyan-500 to-blue-500">
-            Tanvir
-          </span>
-          <span>Blogs</span>
+          <img src="/logoipsum.svg" alt="" />
         </Link>
         <form>
           <TextInput
@@ -34,7 +31,7 @@ const Header = () => {
           </Button>
           <Link to={'/singin'}>
             <Button>
-              Singin
+              Sing in
             </Button>
           </Link>
         </div>
