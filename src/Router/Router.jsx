@@ -5,6 +5,7 @@ import About from "../Pages/About";
 import SingIn from "../Pages/SingIn";
 import SingUp from "../Pages/SingUp";
 import Dashboard from "../Pages/Dashboard";
+import Project from "../Pages/Project";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element:<About></About>
+      },
+      {
+        path: "project",
+        element:<Project></Project>
       },
       {
         path: "singin",
